@@ -1,0 +1,104 @@
+<script type="text/javascript">
+    function number(){
+         var a = parseInt(prompt("enter the number:- "));
+         var b = parseInt(prompt("enter the number:- "));
+         var c = parseInt(prompt("enter the number:- "));
+
+         if(a > b){
+             if(a > c){
+                 console.log("A is the greter");
+             }else{
+                 console.log("C is the greter");
+             }
+         }else if(b > c){
+             console.log("B is the greter");
+         }else{
+             console.log("C is the greter");
+         }
+    }
+    number();
+</script>
+
+<script type="text/javascript">
+    var a = parseInt(prompt("enter the number:- "));
+    var b = parseInt(prompt("enter the number:- "));
+    var c = parseInt(prompt("enter the number:- "));
+    number(a,b,c);
+
+    function number(a,b,c){
+        if(a > b){
+             if(a > c){
+                 console.log("A is the greter");
+             }else{
+                 console.log("C is the greter");
+             }
+         }else if(b > c){
+             console.log("B is the greter");
+         }else{
+             console.log("C is the greter");
+         }
+    }
+</script>
+
+<script type="text/javascript">
+    var ans = number();
+
+    switch(ans){
+        case 1: 
+           console.log("A is the greter");
+        break;
+
+        case 2 :
+            console.log("B is the greter");
+        break;
+
+        case 3:
+            console.log("C is the greter");
+        break;
+    }
+     function number(){
+        var a = 10;
+        var b = 15;
+        var c = 20;
+
+        if(a > b && a > c){
+            return 1;
+        }else if(b > a && b > c){
+            return 2;
+        }else{
+            return 3;
+        }
+     }
+</script>
+
+<script type="text/javascript">
+    
+    function number(a,b,c){
+        if(a > b && a > c){
+            return 1;
+        }else if(b > a && b > c){
+            return 2;
+        }else{
+            return 3;
+        }
+    }
+    var a = parseInt(prompt("enter the number:- "));
+    var b = parseInt(prompt("enter the number:- "));
+    var c = parseInt(prompt("enter the number:- "));
+    var ans = number(a,b,c);
+    switch(ans){
+        case 1: 
+           console.log("A is the greter");
+        break;
+
+        case 2 :
+            console.log("B is the greter");
+        break;
+
+        case 3:
+            console.log("C is the greter");
+        break;
+    }
+    
+
+</script>

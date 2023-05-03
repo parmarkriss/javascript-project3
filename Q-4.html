@@ -1,0 +1,20 @@
+<script type="text/javascript">
+   
+    function number(no,no2,no3,no4){
+        if(no >= no2 && no >= no3 && no >= no4){
+            console.log("the largest number = "+no);
+         }else if(no2 >= no3 && no2 >= no4 && no2 >= no){
+            console.log("the largest number = "+no2);
+         }else if(no3 >= no4 && no3 >= no2 && no3 >= no){
+            console.log("the largest number = "+no3);
+         }else{
+            console.log("the largest number = "+no4);
+         }
+    }
+    
+      var no = parseInt(prompt("enter the number no:- "));
+      var no2 = parseInt(prompt("enter the number no2:- "));
+      var no3 = parseInt(prompt("enter the number no3:- "));
+      var no4 = parseInt(prompt("enter the number no4:- "));
+      number(no,no2,no3,no4);
+</script>

@@ -1,0 +1,87 @@
+<script type="text/javascript">
+     
+    function swap(){
+        var a=10;
+        var b=5;
+
+        var c = a;
+            a = b;
+            b = c;
+        
+        console.log("A = "+a);
+        console.log("B = "+b);
+    }
+    swap();
+</script>
+
+
+<script type="text/javascript">
+
+   function swap1(){
+      var a=10;
+      return a;
+   }
+   function swap2(){
+      var b = 5;
+      return b;
+   }
+   var ans = swap1();
+   var ans2 = swap2();
+
+   swap(ans,ans2);
+   function swap(ans,ans2){
+      var x = ans;
+          ans = ans2;
+          ans2 = x;
+
+      console.log("A = "+ans);
+      console.log("B = "+ans2);
+   }
+</script>
+
+<script type="text/javascript">
+        function swap1() {
+            var a = 10;
+            return a;
+        }
+        function swap2(){
+            var b = 5;
+            return b;
+        }
+        var ans = swap1();
+        var ans2 = swap2();
+        swap(ans, ans2);
+        
+        function swap(ans1 ,ans2)
+        {
+            var c = ans;
+            ans = ans2;
+            ans2 = c;
+            console.log("A = "+ans);
+            console.log("B = "+ans2);
+        }
+</script>
+
+<script type="text/javascript">
+     function swap1(a) {
+       var a = 10;
+       return a;
+    }
+     function swap2(b){
+       var b = 5;
+       return b;
+    }
+    var ans = swap1(a);
+    var ans2 = swap2(b);
+
+     var a,b;
+      function swap(ans ,ans2){
+      var c;
+      c = ans;
+      ans = ans2;
+      ans2 = c;
+      console.log("A = "+ans);
+      console.log("B = "+ans2);
+    }
+    swap(ans, ans2);
+</script>

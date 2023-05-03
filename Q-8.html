@@ -1,0 +1,35 @@
+<script type="text/javascript">
+   
+    function calculator(){
+        var a = 10;
+        var b = 5;
+        var choice = prompt("Enter You choice  :-");
+  
+   switch(choice){
+       case '+': 
+          var c = a + b ; 
+          document.write("<h1>Ans = "+c+"</h1>");
+       break; 
+
+       case '-': 
+          var c = a - b ; 
+          document.write("<h1>Ans = "+c+"</h1>");
+       break; 
+
+       case '*': 
+          var c = a * b ; 
+          document.write("<h1>Ans = "+c+"</h1>");
+       break; 
+
+       case '/': 
+          var c = a / b ; 
+          document.write("<h1>Ans = "+c+"</h1>"); 
+       break; 
+
+       default : 
+         document.write("<h1>invalide choice"+c+"</h1>");
+       break;
+     }
+    }
+    calculator();
+</script>
